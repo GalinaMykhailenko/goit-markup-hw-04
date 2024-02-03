@@ -156,6 +156,7 @@ color: #404BBF;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* 
@@ -314,8 +315,10 @@ gap: 24px;
         letter-spacing: 0.02em;
         text-align: center;
         margin-bottom: 8px;
-        margin-top: 32px;
 }
+
+/* margin-top: 32px; */
+
 
 .our-team-text {
     color: #434455;
@@ -330,8 +333,10 @@ gap: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-bottom: 32px;
+    padding-top: 8px;
 }
+
+/* padding-bottom: 32px; */
 
 .icon-item {
     width: 40px;
@@ -478,9 +483,13 @@ font-family: Raleway, sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
+    text-decoration: none;
     margin-bottom: 16px;
 }
+
+/* 
+display: inline-block;
+*/
 
 .logo-footer-part {
     color: #F4F4FD;
