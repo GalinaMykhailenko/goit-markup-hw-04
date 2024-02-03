@@ -461,9 +461,12 @@ overflow: hidden;
     padding-bottom: 100px;
 }
 
-.container footer {
+.footer-wrap {
     display: flex;
     align-items: baseline;
+}
+
+.footer-logo-text {
     margin-right: 120px;
 }
 
